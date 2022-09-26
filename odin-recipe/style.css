@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "MsMadi";
+  src: url(./MsMadi-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto-Regular.ttf);
+}
+
+body {
+  background: rgb(207, 161, 100);
+  font-family: Roboto;
+}
+
+header {
+  font-family: MsMadi;
+  padding: 5px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+  
+}
+
+h1 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#socials {
+  margin-left: auto;
+}
+
+#socials img {
+  height: 50px;
+  width: 50px;
+}
+
+#socials li {
+  display: inline;
+}
+
+.top {
+  margin-top: 3%;
+  font-variant: small-caps;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+.recipes ul {
+  list-style: none;
+  padding-top: 10%;
+  text-align: center;
+  
+}
+
+a {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.newsletter {
+    padding-top: 10%;
+    text-align: center;
+}
+

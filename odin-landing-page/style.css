@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "MsMadi";
+  src: url(./MsMadi-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto-Regular.ttf);
+}
+
+body {
+  background: rgb(207, 161, 100) url(./eggbackground.jpg) repeat-y;
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  color: rgb(77, 51, 3);
+  font-family: Roboto;
+}
+
+header {
+  font-family: MsMadi;
+  padding: 5px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: left;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.recipes {
+  font-family: Roboto;
+  margin-top: .5%;
+  margin-left: auto;
+  font-size: 15px;
+}
+h2,
+.subwelcome {
+  text-align: center;
+}
+
+.welcome {
+  margin-top: 15%;
+
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+.subwelcome {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 100px;
+}
+
+.sidecontainer {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: rgb(77, 51, 3);
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+footer {
+  text-align: center;
+
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.socials {
+  padding-top: 50px;
+  display: flex;
+
+  justify-content: space-around;
+  padding-left: 20%;
+}
+
+.socials img {
+  height: 50px;
+  width: 50px;
+}
+li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-height: 800px) {
+  footer {
+    display: flex;
+  }
+  footer h2 {
+    padding-right: 20px;
+  }
+  .socials {
+    padding-top: 0px;
+    padding-left: 0%;
+  }
+  li {
+    display: inline;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
